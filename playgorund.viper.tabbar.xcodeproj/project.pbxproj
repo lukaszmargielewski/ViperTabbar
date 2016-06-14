@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA2BEBD11D103F4A00A18380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBD01D103F4A00A18380 /* AppDelegate.swift */; };
+		BA2BEBD31D103F4A00A18380 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBD21D103F4A00A18380 /* ViewController.swift */; };
+		BA2BEBD61D103F4A00A18380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2BEBD41D103F4A00A18380 /* Main.storyboard */; };
+		BA2BEBD81D103F4A00A18380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2BEBD71D103F4A00A18380 /* Assets.xcassets */; };
+		BA2BEBDB1D103F4A00A18380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2BEBD91D103F4A00A18380 /* LaunchScreen.storyboard */; };
+		BA2BEBE61D103F4A00A18380 /* playgorund_viper_tabbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBE51D103F4A00A18380 /* playgorund_viper_tabbarTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA2BEBE21D103F4A00A18380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA2BEBC51D103F4A00A18380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA2BEBCC1D103F4A00A18380;
+			remoteInfo = playgorund.viper.tabbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA2BEBCD1D103F4A00A18380 /* playgorund.viper.tabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playgorund.viper.tabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2BEBD01D103F4A00A18380 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA2BEBD21D103F4A00A18380 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA2BEBD51D103F4A00A18380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA2BEBD71D103F4A00A18380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA2BEBDA1D103F4A00A18380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA2BEBDC1D103F4A00A18380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA2BEBE11D103F4A00A18380 /* playgorund.viper.tabbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playgorund.viper.tabbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2BEBE51D103F4A00A18380 /* playgorund_viper_tabbarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playgorund_viper_tabbarTests.swift; sourceTree = "<group>"; };
+		BA2BEBE71D103F4A00A18380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA2BEBCA1D103F4A00A18380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2BEBDE1D103F4A00A18380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA2BEBC41D103F4A00A18380 = {
+			isa = PBXGroup;
+			children = (
+				BA2BEBCF1D103F4A00A18380 /* playgorund.viper.tabbar */,
+				BA2BEBE41D103F4A00A18380 /* playgorund.viper.tabbarTests */,
+				BA2BEBCE1D103F4A00A18380 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA2BEBCE1D103F4A00A18380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA2BEBCD1D103F4A00A18380 /* playgorund.viper.tabbar.app */,
+				BA2BEBE11D103F4A00A18380 /* playgorund.viper.tabbarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA2BEBCF1D103F4A00A18380 /* playgorund.viper.tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				BA2BEBD01D103F4A00A18380 /* AppDelegate.swift */,
+				BA2BEBD21D103F4A00A18380 /* ViewController.swift */,
+				BA2BEBD41D103F4A00A18380 /* Main.storyboard */,
+				BA2BEBD71D103F4A00A18380 /* Assets.xcassets */,
+				BA2BEBD91D103F4A00A18380 /* LaunchScreen.storyboard */,
+				BA2BEBDC1D103F4A00A18380 /* Info.plist */,
+			);
+			path = playgorund.viper.tabbar;
+			sourceTree = "<group>";
+		};
+		BA2BEBE41D103F4A00A18380 /* playgorund.viper.tabbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA2BEBE51D103F4A00A18380 /* playgorund_viper_tabbarTests.swift */,
+				BA2BEBE71D103F4A00A18380 /* Info.plist */,
+			);
+			path = playgorund.viper.tabbarTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA2BEBCC1D103F4A00A18380 /* playgorund.viper.tabbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2BEBEA1D103F4A00A18380 /* Build configuration list for PBXNativeTarget "playgorund.viper.tabbar" */;
+			buildPhases = (
+				BA2BEBC91D103F4A00A18380 /* Sources */,
+				BA2BEBCA1D103F4A00A18380 /* Frameworks */,
+				BA2BEBCB1D103F4A00A18380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = playgorund.viper.tabbar;
+			productName = playgorund.viper.tabbar;
+			productReference = BA2BEBCD1D103F4A00A18380 /* playgorund.viper.tabbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA2BEBE01D103F4A00A18380 /* playgorund.viper.tabbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2BEBED1D103F4A00A18380 /* Build configuration list for PBXNativeTarget "playgorund.viper.tabbarTests" */;
+			buildPhases = (
+				BA2BEBDD1D103F4A00A18380 /* Sources */,
+				BA2BEBDE1D103F4A00A18380 /* Frameworks */,
+				BA2BEBDF1D103F4A00A18380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA2BEBE31D103F4A00A18380 /* PBXTargetDependency */,
+			);
+			name = playgorund.viper.tabbarTests;
+			productName = playgorund.viper.tabbarTests;
+			productReference = BA2BEBE11D103F4A00A18380 /* playgorund.viper.tabbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA2BEBC51D103F4A00A18380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Lukasz Marcin Margielewski";
+				TargetAttributes = {
+					BA2BEBCC1D103F4A00A18380 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BA2BEBE01D103F4A00A18380 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BA2BEBCC1D103F4A00A18380;
+					};
+				};
+			};
+			buildConfigurationList = BA2BEBC81D103F4A00A18380 /* Build configuration list for PBXProject "playgorund.viper.tabbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA2BEBC41D103F4A00A18380;
+			productRefGroup = BA2BEBCE1D103F4A00A18380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA2BEBCC1D103F4A00A18380 /* playgorund.viper.tabbar */,
+				BA2BEBE01D103F4A00A18380 /* playgorund.viper.tabbarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA2BEBCB1D103F4A00A18380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2BEBDB1D103F4A00A18380 /* LaunchScreen.storyboard in Resources */,
+				BA2BEBD81D103F4A00A18380 /* Assets.xcassets in Resources */,
+				BA2BEBD61D103F4A00A18380 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2BEBDF1D103F4A00A18380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA2BEBC91D103F4A00A18380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2BEBD31D103F4A00A18380 /* ViewController.swift in Sources */,
+				BA2BEBD11D103F4A00A18380 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2BEBDD1D103F4A00A18380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2BEBE61D103F4A00A18380 /* playgorund_viper_tabbarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA2BEBE31D103F4A00A18380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA2BEBCC1D103F4A00A18380 /* playgorund.viper.tabbar */;
+			targetProxy = BA2BEBE21D103F4A00A18380 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA2BEBD41D103F4A00A18380 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA2BEBD51D103F4A00A18380 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA2BEBD91D103F4A00A18380 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA2BEBDA1D103F4A00A18380 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA2BEBE81D103F4A00A18380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA2BEBE91D103F4A00A18380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA2BEBEB1D103F4A00A18380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = playgorund.viper.tabbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.unwire.playgorund-viper-tabbar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA2BEBEC1D103F4A00A18380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = playgorund.viper.tabbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.unwire.playgorund-viper-tabbar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA2BEBEE1D103F4A00A18380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = playgorund.viper.tabbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.unwire.playgorund-viper-tabbarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/playgorund.viper.tabbar.app/playgorund.viper.tabbar";
+			};
+			name = Debug;
+		};
+		BA2BEBEF1D103F4A00A18380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = playgorund.viper.tabbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.unwire.playgorund-viper-tabbarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/playgorund.viper.tabbar.app/playgorund.viper.tabbar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA2BEBC81D103F4A00A18380 /* Build configuration list for PBXProject "playgorund.viper.tabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2BEBE81D103F4A00A18380 /* Debug */,
+				BA2BEBE91D103F4A00A18380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2BEBEA1D103F4A00A18380 /* Build configuration list for PBXNativeTarget "playgorund.viper.tabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2BEBEB1D103F4A00A18380 /* Debug */,
+				BA2BEBEC1D103F4A00A18380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA2BEBED1D103F4A00A18380 /* Build configuration list for PBXNativeTarget "playgorund.viper.tabbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2BEBEE1D103F4A00A18380 /* Debug */,
+				BA2BEBEF1D103F4A00A18380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA2BEBC51D103F4A00A18380 /* Project object */;
+}
