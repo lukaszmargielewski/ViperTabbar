@@ -9,10 +9,19 @@
 /* Begin PBXBuildFile section */
 		BA2BEBD11D103F4A00A18380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBD01D103F4A00A18380 /* AppDelegate.swift */; };
 		BA2BEBD31D103F4A00A18380 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBD21D103F4A00A18380 /* ViewController.swift */; };
-		BA2BEBD61D103F4A00A18380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2BEBD41D103F4A00A18380 /* Main.storyboard */; };
 		BA2BEBD81D103F4A00A18380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2BEBD71D103F4A00A18380 /* Assets.xcassets */; };
 		BA2BEBDB1D103F4A00A18380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2BEBD91D103F4A00A18380 /* LaunchScreen.storyboard */; };
 		BA2BEBE61D103F4A00A18380 /* playgorund_viper_tabbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBE51D103F4A00A18380 /* playgorund_viper_tabbarTests.swift */; };
+		BA2BEBF31D103FAB00A18380 /* TabbarModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBF21D103FAB00A18380 /* TabbarModule.swift */; };
+		BA2BEBF51D10423100A18380 /* TabbarDefaultBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBF41D10423100A18380 /* TabbarDefaultBuilder.swift */; };
+		BA2BEBF71D10426000A18380 /* TabbarDefaultRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBF61D10426000A18380 /* TabbarDefaultRouter.swift */; };
+		BA2BEBFA1D10439200A18380 /* VIPER.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBF91D10439200A18380 /* VIPER.swift */; };
+		BA2BEBFC1D1044DF00A18380 /* ModuleOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBFB1D1044DF00A18380 /* ModuleOne.swift */; };
+		BA2BEC001D1044FA00A18380 /* ModuleTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBFF1D1044FA00A18380 /* ModuleTwo.swift */; };
+		BA2BEC021D1047E300A18380 /* ModuleOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEC011D1047E300A18380 /* ModuleOneViewController.swift */; };
+		BA2BEC041D1047F100A18380 /* ModuleTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEC031D1047F100A18380 /* ModuleTwoViewController.swift */; };
+		BA2BEC061D1048AC00A18380 /* TabbarDefaultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEC051D1048AC00A18380 /* TabbarDefaultPresenter.swift */; };
+		BA2BEC0A1D104DFA00A18380 /* TabbarDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEC091D104DFA00A18380 /* TabbarDefaultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +38,22 @@
 		BA2BEBCD1D103F4A00A18380 /* playgorund.viper.tabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playgorund.viper.tabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2BEBD01D103F4A00A18380 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA2BEBD21D103F4A00A18380 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BA2BEBD51D103F4A00A18380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA2BEBD71D103F4A00A18380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA2BEBDA1D103F4A00A18380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA2BEBDC1D103F4A00A18380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA2BEBE11D103F4A00A18380 /* playgorund.viper.tabbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playgorund.viper.tabbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2BEBE51D103F4A00A18380 /* playgorund_viper_tabbarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playgorund_viper_tabbarTests.swift; sourceTree = "<group>"; };
 		BA2BEBE71D103F4A00A18380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA2BEBF21D103FAB00A18380 /* TabbarModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarModule.swift; sourceTree = "<group>"; };
+		BA2BEBF41D10423100A18380 /* TabbarDefaultBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarDefaultBuilder.swift; sourceTree = "<group>"; };
+		BA2BEBF61D10426000A18380 /* TabbarDefaultRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarDefaultRouter.swift; sourceTree = "<group>"; };
+		BA2BEBF91D10439200A18380 /* VIPER.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIPER.swift; sourceTree = "<group>"; };
+		BA2BEBFB1D1044DF00A18380 /* ModuleOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleOne.swift; sourceTree = "<group>"; };
+		BA2BEBFF1D1044FA00A18380 /* ModuleTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleTwo.swift; sourceTree = "<group>"; };
+		BA2BEC011D1047E300A18380 /* ModuleOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleOneViewController.swift; sourceTree = "<group>"; };
+		BA2BEC031D1047F100A18380 /* ModuleTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleTwoViewController.swift; sourceTree = "<group>"; };
+		BA2BEC051D1048AC00A18380 /* TabbarDefaultPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarDefaultPresenter.swift; sourceTree = "<group>"; };
+		BA2BEC091D104DFA00A18380 /* TabbarDefaultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarDefaultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +95,10 @@
 		BA2BEBCF1D103F4A00A18380 /* playgorund.viper.tabbar */ = {
 			isa = PBXGroup;
 			children = (
+				BA2BEBF81D10438300A18380 /* VIPER */,
+				BA2BEBF01D103F7F00A18380 /* Modules */,
 				BA2BEBD01D103F4A00A18380 /* AppDelegate.swift */,
 				BA2BEBD21D103F4A00A18380 /* ViewController.swift */,
-				BA2BEBD41D103F4A00A18380 /* Main.storyboard */,
 				BA2BEBD71D103F4A00A18380 /* Assets.xcassets */,
 				BA2BEBD91D103F4A00A18380 /* LaunchScreen.storyboard */,
 				BA2BEBDC1D103F4A00A18380 /* Info.plist */,
@@ -94,6 +113,54 @@
 				BA2BEBE71D103F4A00A18380 /* Info.plist */,
 			);
 			path = playgorund.viper.tabbarTests;
+			sourceTree = "<group>";
+		};
+		BA2BEBF01D103F7F00A18380 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BA2BEBFD1D1044E700A18380 /* ModuleOne */,
+				BA2BEBFE1D1044F000A18380 /* ModuleTwo */,
+				BA2BEBF11D103F8600A18380 /* Tabbar */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		BA2BEBF11D103F8600A18380 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				BA2BEBF21D103FAB00A18380 /* TabbarModule.swift */,
+				BA2BEBF41D10423100A18380 /* TabbarDefaultBuilder.swift */,
+				BA2BEBF61D10426000A18380 /* TabbarDefaultRouter.swift */,
+				BA2BEC051D1048AC00A18380 /* TabbarDefaultPresenter.swift */,
+				BA2BEC091D104DFA00A18380 /* TabbarDefaultViewController.swift */,
+			);
+			name = Tabbar;
+			sourceTree = "<group>";
+		};
+		BA2BEBF81D10438300A18380 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				BA2BEBF91D10439200A18380 /* VIPER.swift */,
+			);
+			name = VIPER;
+			sourceTree = "<group>";
+		};
+		BA2BEBFD1D1044E700A18380 /* ModuleOne */ = {
+			isa = PBXGroup;
+			children = (
+				BA2BEBFB1D1044DF00A18380 /* ModuleOne.swift */,
+				BA2BEC011D1047E300A18380 /* ModuleOneViewController.swift */,
+			);
+			name = ModuleOne;
+			sourceTree = "<group>";
+		};
+		BA2BEBFE1D1044F000A18380 /* ModuleTwo */ = {
+			isa = PBXGroup;
+			children = (
+				BA2BEBFF1D1044FA00A18380 /* ModuleTwo.swift */,
+				BA2BEC031D1047F100A18380 /* ModuleTwoViewController.swift */,
+			);
+			name = ModuleTwo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +246,6 @@
 			files = (
 				BA2BEBDB1D103F4A00A18380 /* LaunchScreen.storyboard in Resources */,
 				BA2BEBD81D103F4A00A18380 /* Assets.xcassets in Resources */,
-				BA2BEBD61D103F4A00A18380 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +263,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA2BEC0A1D104DFA00A18380 /* TabbarDefaultViewController.swift in Sources */,
+				BA2BEC061D1048AC00A18380 /* TabbarDefaultPresenter.swift in Sources */,
 				BA2BEBD31D103F4A00A18380 /* ViewController.swift in Sources */,
+				BA2BEC041D1047F100A18380 /* ModuleTwoViewController.swift in Sources */,
+				BA2BEBFC1D1044DF00A18380 /* ModuleOne.swift in Sources */,
+				BA2BEC001D1044FA00A18380 /* ModuleTwo.swift in Sources */,
+				BA2BEBF51D10423100A18380 /* TabbarDefaultBuilder.swift in Sources */,
+				BA2BEBFA1D10439200A18380 /* VIPER.swift in Sources */,
 				BA2BEBD11D103F4A00A18380 /* AppDelegate.swift in Sources */,
+				BA2BEBF71D10426000A18380 /* TabbarDefaultRouter.swift in Sources */,
+				BA2BEC021D1047E300A18380 /* ModuleOneViewController.swift in Sources */,
+				BA2BEBF31D103FAB00A18380 /* TabbarModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +297,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BA2BEBD41D103F4A00A18380 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA2BEBD51D103F4A00A18380 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BA2BEBD91D103F4A00A18380 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
