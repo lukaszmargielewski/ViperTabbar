@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ModuleOneViewController: UIViewController, ModuleOneView {
+class ModuleOneDefaultView: UIViewController, ModuleOneView {
 
     var presenter : ModuleOnePresenter?
     var viewModel : ModuleOneViewModel
@@ -28,7 +28,7 @@ class ModuleOneViewController: UIViewController, ModuleOneView {
     override func loadView() {
         
         self.view = UIView.init()
-        self.statusLabel = UILabel.init(frame: CGRect.init(x: 30, y: 100, width: 200, height: 100))
+        self.statusLabel = UILabel.init()
         self.statusLabel?.numberOfLines = 0
         self.statusLabel?.lineBreakMode = .ByWordWrapping
         self.view.addSubview(self.statusLabel!)
@@ -37,21 +37,16 @@ class ModuleOneViewController: UIViewController, ModuleOneView {
         
         self.navigationItem.rightBarButtonItem  = UIBarButtonItem.init(barButtonSystemItem: .Refresh, target: self, action: #selector(refresh))
         self.navigationItem.leftBarButtonItem   = UIBarButtonItem.init(title: "Help", style: .Done, target: self, action: #selector(info))
+        
+        self.updateLayout()
     }
     
     override func viewDidLoad() {
         self.refreshDisplay()
     }
     
-    // Another strategy is to set up straighforward bindings between UI and viewModel properties
-    func refreshDisplay() {
     
-        self.title                  = self.viewModel.title
-        self.view.backgroundColor   = self.viewModel.backgroundColor
-        self.statusLabel?.text      = self.viewModel.refreshStatusText
-        self.statusLabel?.textColor = self.viewModel.textColor
-    }
-    
+    // -- MARK: Private:
     
     func refresh(sender: UIBarButtonItem) {
         self.presenter?.refreshStatus()
@@ -59,5 +54,23 @@ class ModuleOneViewController: UIViewController, ModuleOneView {
     
     func info() {
         self.presenter?.showHelp()
+    }
+    
+    // TODO: Use Auto Layout (native, SnapKit, etc...)
+    func updateLayout() {
+        
+        self.statusLabel?.frame = CGRect.init(x: 30, y: 100, width: 200, height: 100)
+    }
+    
+    
+    // -- MARK: Protocol imlemetation:
+    
+    // TODO: Another strategy is to set up straighforward bindings between UI and viewModel properties
+    func refreshDisplay() {
+    
+        self.title                  = self.viewModel.title
+        self.view.backgroundColor   = self.viewModel.backgroundColor
+        self.statusLabel?.text      = self.viewModel.refreshStatusText
+        self.statusLabel?.textColor = self.viewModel.textColor
     }
 }

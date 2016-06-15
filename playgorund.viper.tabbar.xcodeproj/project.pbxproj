@@ -18,7 +18,7 @@
 		BA2BEBFA1D10439200A18380 /* VIPER.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBF91D10439200A18380 /* VIPER.swift */; };
 		BA2BEBFC1D1044DF00A18380 /* ModuleOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBFB1D1044DF00A18380 /* ModuleOne.swift */; };
 		BA2BEC001D1044FA00A18380 /* ModuleTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBFF1D1044FA00A18380 /* ModuleTwo.swift */; };
-		BA2BEC021D1047E300A18380 /* ModuleOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEC011D1047E300A18380 /* ModuleOneViewController.swift */; };
+		BA2BEC021D1047E300A18380 /* ModuleOneDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEC011D1047E300A18380 /* ModuleOneDefaultView.swift */; };
 		BA2BEC041D1047F100A18380 /* ModuleTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEC031D1047F100A18380 /* ModuleTwoViewController.swift */; };
 		BA2BEC061D1048AC00A18380 /* TabbarDefaultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEC051D1048AC00A18380 /* TabbarDefaultPresenter.swift */; };
 		BA2BEC0A1D104DFA00A18380 /* TabbarDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEC091D104DFA00A18380 /* TabbarDefaultViewController.swift */; };
@@ -54,7 +54,7 @@
 		BA2BEBF91D10439200A18380 /* VIPER.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIPER.swift; sourceTree = "<group>"; };
 		BA2BEBFB1D1044DF00A18380 /* ModuleOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleOne.swift; sourceTree = "<group>"; };
 		BA2BEBFF1D1044FA00A18380 /* ModuleTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleTwo.swift; sourceTree = "<group>"; };
-		BA2BEC011D1047E300A18380 /* ModuleOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleOneViewController.swift; sourceTree = "<group>"; };
+		BA2BEC011D1047E300A18380 /* ModuleOneDefaultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleOneDefaultView.swift; sourceTree = "<group>"; };
 		BA2BEC031D1047F100A18380 /* ModuleTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleTwoViewController.swift; sourceTree = "<group>"; };
 		BA2BEC051D1048AC00A18380 /* TabbarDefaultPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarDefaultPresenter.swift; sourceTree = "<group>"; };
 		BA2BEC091D104DFA00A18380 /* TabbarDefaultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarDefaultViewController.swift; sourceTree = "<group>"; };
@@ -158,7 +158,7 @@
 			children = (
 				BA2BEBFB1D1044DF00A18380 /* ModuleOne.swift */,
 				BAACE4161D113F740000A40B /* ModuleOneBuilder.swift */,
-				BA2BEC011D1047E300A18380 /* ModuleOneViewController.swift */,
+				BA2BEC011D1047E300A18380 /* ModuleOneDefaultView.swift */,
 				BAACE4181D114E7D0000A40B /* ModuleOneDefaultInteractor.swift */,
 				BAACE41A1D1150670000A40B /* ModuleOneDefaultRouter.swift */,
 				BAACE41C1D1151B30000A40B /* ModuleOneDefaultPresenter.swift */,
@@ -288,7 +288,7 @@
 				BAACE41B1D1150670000A40B /* ModuleOneDefaultRouter.swift in Sources */,
 				BAACE4171D113F740000A40B /* ModuleOneBuilder.swift in Sources */,
 				BA2BEBF71D10426000A18380 /* TabbarDefaultRouter.swift in Sources */,
-				BA2BEC021D1047E300A18380 /* ModuleOneViewController.swift in Sources */,
+				BA2BEC021D1047E300A18380 /* ModuleOneDefaultView.swift in Sources */,
 				BA2BEBF31D103FAB00A18380 /* TabbarModule.swift in Sources */,
 				BAACE41D1D1151B30000A40B /* ModuleOneDefaultPresenter.swift in Sources */,
 			);

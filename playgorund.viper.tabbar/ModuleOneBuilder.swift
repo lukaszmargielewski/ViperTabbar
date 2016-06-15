@@ -14,7 +14,8 @@ class ModuleOneBuilder: ModuleBuilder {
     func buildModule() -> UIViewController? {
 
         let viewModel   = ModuleOneViewModel.init(title: "One", refreshStatusText: "Press refresh to get status updates", backgroundColor: UIColor.whiteColor(), textColor: UIColor.lightGrayColor())
-        let view        = ModuleOneViewController.init(viewModel: viewModel)
+        
+        let view        = ModuleOneDefaultView.init(viewModel: viewModel)
         let interactor  = ModuleOneDefaultInteractor()
         let router      = ModuleOneDefaultRouter.init(viewController: view)
         let presenter   = ModuleOneDefaultPresenter.init(viewModel: viewModel, view: view, interactor: interactor, router: router)
