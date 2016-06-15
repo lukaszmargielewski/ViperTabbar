@@ -9,6 +9,9 @@
 import Foundation
 import UIKit
 
+// !!! - Just plain dummy, mnimum, not fully VIPER module.
+// !!! - See 'Module One' (ModuleOne.swift) for full VIPER modul example.
+
 class ModuleTwoBuilder: ModuleBuilder {
     
     func buildModule() -> UIViewController? {
