@@ -18,6 +18,10 @@ class ModuleTwoDefaultBuilder: ModuleBuilder {
     
         let vc = ModuleTwoView.init()
         vc.title = "Two"
+        
+        let image = UIImage.init(named: "ladybird_filled-50")
+        vc.tabBarItem.image = image
+        
         return UINavigationController.init(rootViewController: vc)
     }
 }

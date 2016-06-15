@@ -14,11 +14,12 @@ class ModuleTwoView: UIViewController {
     // from Module One for 'correct & full' VIPER implementation
     
     override func loadView() {
-        
         self.view = UIView.init()
     }
     
     override func viewDidLoad() {
         self.view.backgroundColor = UIColor.greenColor()
     }
+    
+    
 }

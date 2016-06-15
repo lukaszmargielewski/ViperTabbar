@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class ModuleOneDefaultPresenter : ModuleOnePresenter {
+class ModuleOneDefaultPresenter : ModuleOnePresenter, ModuleHelpDelegate {
     
             var router      : ModuleOneRouter
             var interactor  : ModuleOneInteractor
@@ -37,9 +37,15 @@ class ModuleOneDefaultPresenter : ModuleOnePresenter {
     func showHelp() {
         
         // Example action using Router (navigation related stuff):
-        self.router.goToHelp()
+        self.router.showHelpModule(self)
     }
     
+    // -- MARK: ModuleOneHelpDelegate
+    
+    func closeHelp() {
+        self.router.closeHelpModule()
+    }
+
     // -- MARK: Private
     
     func updateViewModelWithData(data: ModuleOneModel) {

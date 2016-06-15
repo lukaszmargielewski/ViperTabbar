@@ -19,6 +19,7 @@ class ModuleOneDefaultView: UIViewController, ModuleOneView {
     
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
+        self.refreshDisplay()
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -36,7 +37,7 @@ class ModuleOneDefaultView: UIViewController, ModuleOneView {
         // TODO: Use SnapKit for Auto Layout
         
         self.navigationItem.rightBarButtonItem  = UIBarButtonItem.init(barButtonSystemItem: .Refresh, target: self, action: #selector(refresh))
-        self.navigationItem.leftBarButtonItem   = UIBarButtonItem.init(title: "Help", style: .Done, target: self, action: #selector(info))
+        self.navigationItem.leftBarButtonItem   = UIBarButtonItem.init(title: "Help", style: .Done, target: self, action: #selector(showHelp))
         
         self.updateLayout()
     }
@@ -52,13 +53,12 @@ class ModuleOneDefaultView: UIViewController, ModuleOneView {
         self.presenter?.refreshStatus()
     }
     
-    func info() {
+    func showHelp(sender: UIBarButtonItem) {
         self.presenter?.showHelp()
     }
     
-    // TODO: Use Auto Layout (native, SnapKit, etc...)
     func updateLayout() {
-        
+        // TODO: Use Auto Layout (native, SnapKit, etc...)
         self.statusLabel?.frame = CGRect.init(x: 30, y: 100, width: 200, height: 100)
     }
     
@@ -72,5 +72,6 @@ class ModuleOneDefaultView: UIViewController, ModuleOneView {
         self.view.backgroundColor   = self.viewModel.backgroundColor
         self.statusLabel?.text      = self.viewModel.refreshStatusText
         self.statusLabel?.textColor = self.viewModel.textColor
+        self.tabBarItem.image       = self.viewModel.iconForTabbar
     }
 }

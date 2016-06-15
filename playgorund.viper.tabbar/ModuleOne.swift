@@ -19,15 +19,17 @@ protocol ModuleOneRouter {
     
     // Router needs (required?) reference to the module's UIViewController to do its routing job.
     unowned var viewController : UIViewController {get}
-    func goToHelp()
+    
+    func showHelpModule(delegate: ModuleHelpDelegate)
+    func closeHelpModule()
 }
 
 
 // -- MARK: Model
 
 struct ModuleOneModel {
-    var error       : Bool // Just dummy flag (too lazy to wre down enum for this demo example ;-)
-    var statusData : String
+    var error       : Bool // Just dummy flag.
+    var statusData  : String
 }
 
 
@@ -48,6 +50,7 @@ class ModuleOneViewModel {
             var refreshStatusText   : String
             var backgroundColor     : UIColor
             var textColor           : UIColor
+            var iconForTabbar       : UIImage?
     
     required init(title: String, refreshStatusText: String, backgroundColor: UIColor, textColor: UIColor) {
     

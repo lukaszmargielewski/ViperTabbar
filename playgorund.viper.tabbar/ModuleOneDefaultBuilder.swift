@@ -13,7 +13,7 @@ class ModuleOneDefaultBuilder: ModuleBuilder {
     
     func buildModule() -> UIViewController? {
 
-        let viewModel   = ModuleOneViewModel.init(title: "One", refreshStatusText: "Press refresh to get status updates", backgroundColor: UIColor.whiteColor(), textColor: UIColor.lightGrayColor())
+        let viewModel   = self.buildViewModel()
         
         let view        = ModuleOneDefaultView.init(viewModel: viewModel)
         let interactor  = ModuleOneDefaultInteractor()
@@ -23,5 +23,20 @@ class ModuleOneDefaultBuilder: ModuleBuilder {
         // To hold & retain  everything together:
         view.presenter = presenter
         return UINavigationController.init(rootViewController: view)
+    }
+    
+    // -- MARK: Private
+    
+    func buildViewModel() -> ModuleOneViewModel {
+        
+        let viewModel = ModuleOneViewModel.init(title: "One",
+                                refreshStatusText: "Press refresh to get status updates",
+                                backgroundColor: UIColor.whiteColor(),
+                                textColor: UIColor.lightGrayColor())
+        
+        let icon = UIImage.init(named: "pig_filled-50")
+        viewModel.iconForTabbar = icon
+        
+        return viewModel
     }
 }

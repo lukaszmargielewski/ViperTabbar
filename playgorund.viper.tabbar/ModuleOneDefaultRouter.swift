@@ -15,14 +15,20 @@ class ModuleOneDefaultRouter : ModuleOneRouter {
     unowned var viewController : UIViewController
     
     init(viewController : UIViewController) {
-    
+        
         self.viewController = viewController
     }
     
-    func goToHelp() {
-    
-        print("Show help screen with optional delegate.")
+    func showHelpModule(delegate: ModuleHelpDelegate) {
+        
+        guard let viewController = ModuleHelpDefaultBuilder().buildModule(delegate) else {
+            return
+        }
+        self.viewController.presentViewController(viewController, animated: true, completion: nil)
     }
     
-    
+    func closeHelpModule() {
+        
+        self.viewController.dismissViewControllerAnimated(true, completion: nil)
+    }
 }

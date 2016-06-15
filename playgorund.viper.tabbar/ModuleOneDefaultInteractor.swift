@@ -15,7 +15,7 @@ class ModuleOneDefaultInteractor: ModuleOneInteractor {
     func getSomeData(parameters: [String:AnyObject]?) -> ModuleOneModel {
         counter += 1
         let errorFlag = (counter % 2 == 0) ? true : false
-        let statusData = (errorFlag == true) ? "Error example \(counter+1) data status" : "Example \(counter+1) data status"
+        let statusData = (errorFlag == true) ? "Error example \(counter) data status" : "Example \(counter) data status"
         return ModuleOneModel(error: errorFlag, statusData: statusData)
     }
 }

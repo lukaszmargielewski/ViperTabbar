@@ -26,6 +26,10 @@
 		BAACE4191D114E7D0000A40B /* ModuleOneDefaultInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACE4181D114E7D0000A40B /* ModuleOneDefaultInteractor.swift */; };
 		BAACE41B1D1150670000A40B /* ModuleOneDefaultRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACE41A1D1150670000A40B /* ModuleOneDefaultRouter.swift */; };
 		BAACE41D1D1151B30000A40B /* ModuleOneDefaultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACE41C1D1151B30000A40B /* ModuleOneDefaultPresenter.swift */; };
+		BAACE4201D118DA10000A40B /* ModuleHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACE41F1D118DA10000A40B /* ModuleHelp.swift */; };
+		BAACE4241D118E8F0000A40B /* ModuleHelpDefaultBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACE4211D118E8F0000A40B /* ModuleHelpDefaultBuilder.swift */; };
+		BAACE4251D118E8F0000A40B /* ModuleHelpDefaultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACE4221D118E8F0000A40B /* ModuleHelpDefaultPresenter.swift */; };
+		BAACE4261D118E8F0000A40B /* ModuleHelpDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACE4231D118E8F0000A40B /* ModuleHelpDefaultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +66,10 @@
 		BAACE4181D114E7D0000A40B /* ModuleOneDefaultInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleOneDefaultInteractor.swift; sourceTree = "<group>"; };
 		BAACE41A1D1150670000A40B /* ModuleOneDefaultRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleOneDefaultRouter.swift; sourceTree = "<group>"; };
 		BAACE41C1D1151B30000A40B /* ModuleOneDefaultPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleOneDefaultPresenter.swift; sourceTree = "<group>"; };
+		BAACE41F1D118DA10000A40B /* ModuleHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleHelp.swift; sourceTree = "<group>"; };
+		BAACE4211D118E8F0000A40B /* ModuleHelpDefaultBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleHelpDefaultBuilder.swift; sourceTree = "<group>"; };
+		BAACE4221D118E8F0000A40B /* ModuleHelpDefaultPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleHelpDefaultPresenter.swift; sourceTree = "<group>"; };
+		BAACE4231D118E8F0000A40B /* ModuleHelpDefaultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleHelpDefaultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +134,7 @@
 		BA2BEBF01D103F7F00A18380 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				BAACE41E1D118D8D0000A40B /* ModuleHelp */,
 				BA2BEBFD1D1044E700A18380 /* ModuleOne */,
 				BA2BEBFE1D1044F000A18380 /* ModuleTwo */,
 				BA2BEBF11D103F8600A18380 /* Tabbar */,
@@ -173,6 +182,17 @@
 				BA2BEC031D1047F100A18380 /* ModuleTwoView.swift */,
 			);
 			name = ModuleTwo;
+			sourceTree = "<group>";
+		};
+		BAACE41E1D118D8D0000A40B /* ModuleHelp */ = {
+			isa = PBXGroup;
+			children = (
+				BAACE41F1D118DA10000A40B /* ModuleHelp.swift */,
+				BAACE4211D118E8F0000A40B /* ModuleHelpDefaultBuilder.swift */,
+				BAACE4221D118E8F0000A40B /* ModuleHelpDefaultPresenter.swift */,
+				BAACE4231D118E8F0000A40B /* ModuleHelpDefaultView.swift */,
+			);
+			name = ModuleHelp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,9 +295,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAACE4201D118DA10000A40B /* ModuleHelp.swift in Sources */,
 				BA2BEC0A1D104DFA00A18380 /* TabbarDefaultViewController.swift in Sources */,
+				BAACE4241D118E8F0000A40B /* ModuleHelpDefaultBuilder.swift in Sources */,
 				BA2BEC061D1048AC00A18380 /* TabbarDefaultPresenter.swift in Sources */,
 				BAACE4191D114E7D0000A40B /* ModuleOneDefaultInteractor.swift in Sources */,
+				BAACE4261D118E8F0000A40B /* ModuleHelpDefaultView.swift in Sources */,
+				BAACE4251D118E8F0000A40B /* ModuleHelpDefaultPresenter.swift in Sources */,
 				BA2BEBD31D103F4A00A18380 /* ViewController.swift in Sources */,
 				BA2BEC041D1047F100A18380 /* ModuleTwoView.swift in Sources */,
 				BA2BEBFC1D1044DF00A18380 /* ModuleOne.swift in Sources */,
