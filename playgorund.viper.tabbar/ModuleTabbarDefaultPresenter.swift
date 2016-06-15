@@ -1,5 +1,5 @@
 //
-//  TabbarDefaultPresenter.swift
+//  ModuleTabbarPresenter.swift
 //  playgorund.viper.tabbar
 //
 //  Created by Lukasz Marcin Margielewski on 14/06/16.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class TabbarDefaultPresenter: TabbarPresenter {
+class ModuleTabbarPresenter: TabbarPresenter {
 
     var router : TabbarRouter
     required init(router: TabbarRouter) {

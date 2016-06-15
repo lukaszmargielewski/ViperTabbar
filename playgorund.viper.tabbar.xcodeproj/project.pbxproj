@@ -12,16 +12,16 @@
 		BA2BEBD81D103F4A00A18380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2BEBD71D103F4A00A18380 /* Assets.xcassets */; };
 		BA2BEBDB1D103F4A00A18380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2BEBD91D103F4A00A18380 /* LaunchScreen.storyboard */; };
 		BA2BEBE61D103F4A00A18380 /* playgorund_viper_tabbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBE51D103F4A00A18380 /* playgorund_viper_tabbarTests.swift */; };
-		BA2BEBF31D103FAB00A18380 /* TabbarModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBF21D103FAB00A18380 /* TabbarModule.swift */; };
-		BA2BEBF51D10423100A18380 /* TabbarDefaultBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBF41D10423100A18380 /* TabbarDefaultBuilder.swift */; };
-		BA2BEBF71D10426000A18380 /* TabbarDefaultRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBF61D10426000A18380 /* TabbarDefaultRouter.swift */; };
+		BA2BEBF31D103FAB00A18380 /* ModuleTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBF21D103FAB00A18380 /* ModuleTabbar.swift */; };
+		BA2BEBF51D10423100A18380 /* ModuleTabbarDefaultBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBF41D10423100A18380 /* ModuleTabbarDefaultBuilder.swift */; };
+		BA2BEBF71D10426000A18380 /* ModuleTabbarDefaultRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBF61D10426000A18380 /* ModuleTabbarDefaultRouter.swift */; };
 		BA2BEBFA1D10439200A18380 /* VIPER.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBF91D10439200A18380 /* VIPER.swift */; };
 		BA2BEBFC1D1044DF00A18380 /* ModuleOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBFB1D1044DF00A18380 /* ModuleOne.swift */; };
 		BA2BEC001D1044FA00A18380 /* ModuleTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEBFF1D1044FA00A18380 /* ModuleTwo.swift */; };
 		BA2BEC021D1047E300A18380 /* ModuleOneDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEC011D1047E300A18380 /* ModuleOneDefaultView.swift */; };
 		BA2BEC041D1047F100A18380 /* ModuleTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEC031D1047F100A18380 /* ModuleTwoView.swift */; };
-		BA2BEC061D1048AC00A18380 /* TabbarDefaultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEC051D1048AC00A18380 /* TabbarDefaultPresenter.swift */; };
-		BA2BEC0A1D104DFA00A18380 /* TabbarDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEC091D104DFA00A18380 /* TabbarDefaultViewController.swift */; };
+		BA2BEC061D1048AC00A18380 /* ModuleTabbarDefaultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEC051D1048AC00A18380 /* ModuleTabbarDefaultPresenter.swift */; };
+		BA2BEC0A1D104DFA00A18380 /* ModuleTabbarDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEC091D104DFA00A18380 /* ModuleTabbarDefaultView.swift */; };
 		BAACE4171D113F740000A40B /* ModuleOneDefaultBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACE4161D113F740000A40B /* ModuleOneDefaultBuilder.swift */; };
 		BAACE4191D114E7D0000A40B /* ModuleOneDefaultInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACE4181D114E7D0000A40B /* ModuleOneDefaultInteractor.swift */; };
 		BAACE41B1D1150670000A40B /* ModuleOneDefaultRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACE41A1D1150670000A40B /* ModuleOneDefaultRouter.swift */; };
@@ -52,16 +52,16 @@
 		BA2BEBE11D103F4A00A18380 /* playgorund.viper.tabbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playgorund.viper.tabbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2BEBE51D103F4A00A18380 /* playgorund_viper_tabbarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playgorund_viper_tabbarTests.swift; sourceTree = "<group>"; };
 		BA2BEBE71D103F4A00A18380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA2BEBF21D103FAB00A18380 /* TabbarModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarModule.swift; sourceTree = "<group>"; };
-		BA2BEBF41D10423100A18380 /* TabbarDefaultBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarDefaultBuilder.swift; sourceTree = "<group>"; };
-		BA2BEBF61D10426000A18380 /* TabbarDefaultRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarDefaultRouter.swift; sourceTree = "<group>"; };
+		BA2BEBF21D103FAB00A18380 /* ModuleTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleTabbar.swift; sourceTree = "<group>"; };
+		BA2BEBF41D10423100A18380 /* ModuleTabbarDefaultBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleTabbarDefaultBuilder.swift; sourceTree = "<group>"; };
+		BA2BEBF61D10426000A18380 /* ModuleTabbarDefaultRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleTabbarDefaultRouter.swift; sourceTree = "<group>"; };
 		BA2BEBF91D10439200A18380 /* VIPER.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIPER.swift; sourceTree = "<group>"; };
 		BA2BEBFB1D1044DF00A18380 /* ModuleOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleOne.swift; sourceTree = "<group>"; };
 		BA2BEBFF1D1044FA00A18380 /* ModuleTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleTwo.swift; sourceTree = "<group>"; };
 		BA2BEC011D1047E300A18380 /* ModuleOneDefaultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleOneDefaultView.swift; sourceTree = "<group>"; };
 		BA2BEC031D1047F100A18380 /* ModuleTwoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleTwoView.swift; sourceTree = "<group>"; };
-		BA2BEC051D1048AC00A18380 /* TabbarDefaultPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarDefaultPresenter.swift; sourceTree = "<group>"; };
-		BA2BEC091D104DFA00A18380 /* TabbarDefaultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarDefaultViewController.swift; sourceTree = "<group>"; };
+		BA2BEC051D1048AC00A18380 /* ModuleTabbarDefaultPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleTabbarDefaultPresenter.swift; sourceTree = "<group>"; };
+		BA2BEC091D104DFA00A18380 /* ModuleTabbarDefaultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleTabbarDefaultView.swift; sourceTree = "<group>"; };
 		BAACE4161D113F740000A40B /* ModuleOneDefaultBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleOneDefaultBuilder.swift; sourceTree = "<group>"; };
 		BAACE4181D114E7D0000A40B /* ModuleOneDefaultInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleOneDefaultInteractor.swift; sourceTree = "<group>"; };
 		BAACE41A1D1150670000A40B /* ModuleOneDefaultRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleOneDefaultRouter.swift; sourceTree = "<group>"; };
@@ -137,21 +137,21 @@
 				BAACE41E1D118D8D0000A40B /* ModuleHelp */,
 				BA2BEBFD1D1044E700A18380 /* ModuleOne */,
 				BA2BEBFE1D1044F000A18380 /* ModuleTwo */,
-				BA2BEBF11D103F8600A18380 /* Tabbar */,
+				BA2BEBF11D103F8600A18380 /* ModuleTabbar */,
 			);
 			name = Modules;
 			sourceTree = "<group>";
 		};
-		BA2BEBF11D103F8600A18380 /* Tabbar */ = {
+		BA2BEBF11D103F8600A18380 /* ModuleTabbar */ = {
 			isa = PBXGroup;
 			children = (
-				BA2BEBF21D103FAB00A18380 /* TabbarModule.swift */,
-				BA2BEBF41D10423100A18380 /* TabbarDefaultBuilder.swift */,
-				BA2BEBF61D10426000A18380 /* TabbarDefaultRouter.swift */,
-				BA2BEC051D1048AC00A18380 /* TabbarDefaultPresenter.swift */,
-				BA2BEC091D104DFA00A18380 /* TabbarDefaultViewController.swift */,
+				BA2BEBF21D103FAB00A18380 /* ModuleTabbar.swift */,
+				BA2BEBF41D10423100A18380 /* ModuleTabbarDefaultBuilder.swift */,
+				BA2BEBF61D10426000A18380 /* ModuleTabbarDefaultRouter.swift */,
+				BA2BEC051D1048AC00A18380 /* ModuleTabbarDefaultPresenter.swift */,
+				BA2BEC091D104DFA00A18380 /* ModuleTabbarDefaultView.swift */,
 			);
-			name = Tabbar;
+			name = ModuleTabbar;
 			sourceTree = "<group>";
 		};
 		BA2BEBF81D10438300A18380 /* VIPER */ = {
@@ -296,9 +296,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAACE4201D118DA10000A40B /* ModuleHelp.swift in Sources */,
-				BA2BEC0A1D104DFA00A18380 /* TabbarDefaultViewController.swift in Sources */,
+				BA2BEC0A1D104DFA00A18380 /* ModuleTabbarDefaultView.swift in Sources */,
 				BAACE4241D118E8F0000A40B /* ModuleHelpDefaultBuilder.swift in Sources */,
-				BA2BEC061D1048AC00A18380 /* TabbarDefaultPresenter.swift in Sources */,
+				BA2BEC061D1048AC00A18380 /* ModuleTabbarDefaultPresenter.swift in Sources */,
 				BAACE4191D114E7D0000A40B /* ModuleOneDefaultInteractor.swift in Sources */,
 				BAACE4261D118E8F0000A40B /* ModuleHelpDefaultView.swift in Sources */,
 				BAACE4251D118E8F0000A40B /* ModuleHelpDefaultPresenter.swift in Sources */,
@@ -306,14 +306,14 @@
 				BA2BEC041D1047F100A18380 /* ModuleTwoView.swift in Sources */,
 				BA2BEBFC1D1044DF00A18380 /* ModuleOne.swift in Sources */,
 				BA2BEC001D1044FA00A18380 /* ModuleTwo.swift in Sources */,
-				BA2BEBF51D10423100A18380 /* TabbarDefaultBuilder.swift in Sources */,
+				BA2BEBF51D10423100A18380 /* ModuleTabbarDefaultBuilder.swift in Sources */,
 				BA2BEBFA1D10439200A18380 /* VIPER.swift in Sources */,
 				BA2BEBD11D103F4A00A18380 /* AppDelegate.swift in Sources */,
 				BAACE41B1D1150670000A40B /* ModuleOneDefaultRouter.swift in Sources */,
 				BAACE4171D113F740000A40B /* ModuleOneDefaultBuilder.swift in Sources */,
-				BA2BEBF71D10426000A18380 /* TabbarDefaultRouter.swift in Sources */,
+				BA2BEBF71D10426000A18380 /* ModuleTabbarDefaultRouter.swift in Sources */,
 				BA2BEC021D1047E300A18380 /* ModuleOneDefaultView.swift in Sources */,
-				BA2BEBF31D103FAB00A18380 /* TabbarModule.swift in Sources */,
+				BA2BEBF31D103FAB00A18380 /* ModuleTabbar.swift in Sources */,
 				BAACE41D1D1151B30000A40B /* ModuleOneDefaultPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

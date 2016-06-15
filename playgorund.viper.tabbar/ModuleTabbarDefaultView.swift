@@ -1,5 +1,5 @@
 //
-//  TabbarDefaultViewController.swift
+//  ModuleTabbarViewController.swift
 //  playgorund.viper.tabbar
 //
 //  Created by Lukasz Marcin Margielewski on 14/06/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TabbarDefaultViewController: UITabBarController, TabbarView {
+class ModuleTabbarViewController: UITabBarController, TabbarView {
 
     var presenter : TabbarPresenter?
 }
