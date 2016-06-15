@@ -22,6 +22,10 @@
 		BA2BEC041D1047F100A18380 /* ModuleTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEC031D1047F100A18380 /* ModuleTwoViewController.swift */; };
 		BA2BEC061D1048AC00A18380 /* TabbarDefaultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEC051D1048AC00A18380 /* TabbarDefaultPresenter.swift */; };
 		BA2BEC0A1D104DFA00A18380 /* TabbarDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BEC091D104DFA00A18380 /* TabbarDefaultViewController.swift */; };
+		BAACE4171D113F740000A40B /* ModuleOneBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACE4161D113F740000A40B /* ModuleOneBuilder.swift */; };
+		BAACE4191D114E7D0000A40B /* ModuleOneDefaultInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACE4181D114E7D0000A40B /* ModuleOneDefaultInteractor.swift */; };
+		BAACE41B1D1150670000A40B /* ModuleOneDefaultRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACE41A1D1150670000A40B /* ModuleOneDefaultRouter.swift */; };
+		BAACE41D1D1151B30000A40B /* ModuleOneDefaultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACE41C1D1151B30000A40B /* ModuleOneDefaultPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,10 @@
 		BA2BEC031D1047F100A18380 /* ModuleTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleTwoViewController.swift; sourceTree = "<group>"; };
 		BA2BEC051D1048AC00A18380 /* TabbarDefaultPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarDefaultPresenter.swift; sourceTree = "<group>"; };
 		BA2BEC091D104DFA00A18380 /* TabbarDefaultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarDefaultViewController.swift; sourceTree = "<group>"; };
+		BAACE4161D113F740000A40B /* ModuleOneBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleOneBuilder.swift; sourceTree = "<group>"; };
+		BAACE4181D114E7D0000A40B /* ModuleOneDefaultInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleOneDefaultInteractor.swift; sourceTree = "<group>"; };
+		BAACE41A1D1150670000A40B /* ModuleOneDefaultRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleOneDefaultRouter.swift; sourceTree = "<group>"; };
+		BAACE41C1D1151B30000A40B /* ModuleOneDefaultPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleOneDefaultPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +157,11 @@
 			isa = PBXGroup;
 			children = (
 				BA2BEBFB1D1044DF00A18380 /* ModuleOne.swift */,
+				BAACE4161D113F740000A40B /* ModuleOneBuilder.swift */,
 				BA2BEC011D1047E300A18380 /* ModuleOneViewController.swift */,
+				BAACE4181D114E7D0000A40B /* ModuleOneDefaultInteractor.swift */,
+				BAACE41A1D1150670000A40B /* ModuleOneDefaultRouter.swift */,
+				BAACE41C1D1151B30000A40B /* ModuleOneDefaultPresenter.swift */,
 			);
 			name = ModuleOne;
 			sourceTree = "<group>";
@@ -265,6 +277,7 @@
 			files = (
 				BA2BEC0A1D104DFA00A18380 /* TabbarDefaultViewController.swift in Sources */,
 				BA2BEC061D1048AC00A18380 /* TabbarDefaultPresenter.swift in Sources */,
+				BAACE4191D114E7D0000A40B /* ModuleOneDefaultInteractor.swift in Sources */,
 				BA2BEBD31D103F4A00A18380 /* ViewController.swift in Sources */,
 				BA2BEC041D1047F100A18380 /* ModuleTwoViewController.swift in Sources */,
 				BA2BEBFC1D1044DF00A18380 /* ModuleOne.swift in Sources */,
@@ -272,9 +285,12 @@
 				BA2BEBF51D10423100A18380 /* TabbarDefaultBuilder.swift in Sources */,
 				BA2BEBFA1D10439200A18380 /* VIPER.swift in Sources */,
 				BA2BEBD11D103F4A00A18380 /* AppDelegate.swift in Sources */,
+				BAACE41B1D1150670000A40B /* ModuleOneDefaultRouter.swift in Sources */,
+				BAACE4171D113F740000A40B /* ModuleOneBuilder.swift in Sources */,
 				BA2BEBF71D10426000A18380 /* TabbarDefaultRouter.swift in Sources */,
 				BA2BEC021D1047E300A18380 /* ModuleOneViewController.swift in Sources */,
 				BA2BEBF31D103FAB00A18380 /* TabbarModule.swift in Sources */,
+				BAACE41D1D1151B30000A40B /* ModuleOneDefaultPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +472,7 @@
 				BA2BEBEC1D103F4A00A18380 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA2BEBED1D103F4A00A18380 /* Build configuration list for PBXNativeTarget "playgorund.viper.tabbarTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +481,7 @@
 				BA2BEBEF1D103F4A00A18380 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

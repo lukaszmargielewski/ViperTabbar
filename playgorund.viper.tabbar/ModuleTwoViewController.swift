@@ -10,8 +10,15 @@ import UIKit
 
 class ModuleTwoViewController: UIViewController {
 
+    // This is dummy - please see ModuleOneViewController 
+    // from Module One for 'correct & full' VIPER implementation
+    
     override func loadView() {
+        
         self.view = UIView.init()
+    }
+    
+    override func viewDidLoad() {
         self.view.backgroundColor = UIColor.greenColor()
     }
 }

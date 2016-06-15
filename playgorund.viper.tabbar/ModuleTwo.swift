@@ -12,8 +12,24 @@ import UIKit
 class ModuleTwoBuilder: ModuleBuilder {
     
     func buildModule() -> UIViewController? {
+    
         let vc = ModuleTwoViewController.init()
         vc.title = "Two"
         return UINavigationController.init(rootViewController: vc)
     }
+}
+
+
+protocol ModuleTwoViewModel {
+    
+    var title : String {get set}
+    var backgroundColor : UIColor {get set}
+    
+    init(title: String, backgroundColor: UIColor)
+}
+
+protocol ModuleTwoView {
+    
+    var viewModel : ModuleTwoViewModel {get}
+    init(viewModel: ModuleTwoViewModel)
 }
