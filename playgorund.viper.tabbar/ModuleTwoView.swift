@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ModuleTwoViewController: UIViewController {
+class ModuleTwoView: UIViewController {
 
     // This is dummy - please see ModuleOneViewController 
     // from Module One for 'correct & full' VIPER implementation

@@ -15,7 +15,7 @@ class TabbarDefaultBuilder: ModuleBuilder {
 
         let tabbarController = TabbarDefaultViewController.init()
         
-        let router      = TabbarDefaultRouter.init(modules: [ModuleOneBuilder(), ModuleTwoBuilder()])
+        let router      = TabbarDefaultRouter.init(modules: [ModuleOneDefaultBuilder(), ModuleTwoDefaultBuilder()])
         let presenter   = TabbarDefaultPresenter.init(router: router)
         
         tabbarController.presenter = presenter

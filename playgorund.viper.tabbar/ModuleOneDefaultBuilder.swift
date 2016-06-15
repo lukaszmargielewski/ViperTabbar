@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class ModuleOneBuilder: ModuleBuilder {
+class ModuleOneDefaultBuilder: ModuleBuilder {
     
     func buildModule() -> UIViewController? {
 
