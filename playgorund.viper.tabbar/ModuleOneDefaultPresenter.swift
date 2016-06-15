@@ -31,6 +31,7 @@ class ModuleOneDefaultPresenter : ModuleOnePresenter {
         // This could easily be asynchronyous:
         let data = self.interactor.getSomeData(nil)
         self.updateViewModelWithData(data)
+        self.view.refreshDisplay()
     }
     
     func showHelp() {

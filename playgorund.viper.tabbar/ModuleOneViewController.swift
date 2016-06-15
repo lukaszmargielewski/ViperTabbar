@@ -33,22 +33,25 @@ class ModuleOneViewController: UIViewController, ModuleOneView {
         self.statusLabel?.lineBreakMode = .ByWordWrapping
         self.view.addSubview(self.statusLabel!)
         
+        // TODO: Use SnapKit for Auto Layout
+        
         self.navigationItem.rightBarButtonItem  = UIBarButtonItem.init(barButtonSystemItem: .Refresh, target: self, action: #selector(refresh))
         self.navigationItem.leftBarButtonItem   = UIBarButtonItem.init(title: "Help", style: .Done, target: self, action: #selector(info))
     }
     
     override func viewDidLoad() {
-        self.setupLayout()
-        self.setupBindings()
+        self.refreshDisplay()
     }
     
-    func setupLayout() {
-        // TODO: Use SnapKit for Auto Layout
+    // Another strategy is to set up straighforward bindings between UI and viewModel properties
+    func refreshDisplay() {
+    
+        self.title                  = self.viewModel.title
+        self.view.backgroundColor   = self.viewModel.backgroundColor
+        self.statusLabel?.text      = self.viewModel.refreshStatusText
+        self.statusLabel?.textColor = self.viewModel.textColor
     }
     
-    func setupBindings() {
-        // TODO: One strategy is to set up straighforward bindings between UI and viewModel properties
-    }
     
     func refresh(sender: UIBarButtonItem) {
         self.presenter?.refreshStatus()

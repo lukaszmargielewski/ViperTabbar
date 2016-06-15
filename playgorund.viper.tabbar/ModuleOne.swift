@@ -89,4 +89,6 @@ protocol ModuleOneView : class {
     
     // ???: Again - should we decalre initializer in protocol?
     init(viewModel : ModuleOneViewModel)
+    
+    func refreshDisplay()
 }
