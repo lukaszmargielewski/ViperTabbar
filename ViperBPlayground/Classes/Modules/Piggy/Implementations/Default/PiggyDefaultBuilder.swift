@@ -29,13 +29,14 @@ class PiggyDefaultBuilder: ModuleBuilder {
     
     func buildViewModel() -> PiggyViewModel {
         
-        let viewModel = PiggyViewModel.init(title: "Piggy",
-                                refreshStatusText: "Press refresh to get status updates for our little piggy.",
-                                backgroundColor: UIColor.whiteColor(),
-                                textColor: UIColor.lightGrayColor())
+        let viewModel = PiggyViewModel.init(
+                                title               : "Piggy",
+                                refreshStatusText   : "Press refresh to get status updates for our little piggy.",
+                                backgroundColorName : "white",
+                                textColorName       : "gray"
+                                )
         
-        let icon = UIImage.init(named: "pig_filled-50")
-        viewModel.iconForTabbar = icon
+        viewModel.iconForTabbarName = "pig_filled-50"
         
         return viewModel
     }

@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import UIKit
 
 class PiggyDefaultPresenter : PiggyPresenter, ModuleHelpDelegate {
     
@@ -46,8 +45,12 @@ class PiggyDefaultPresenter : PiggyPresenter, ModuleHelpDelegate {
     // -- MARK: Private
     
     func updateViewModelWithData(data: Piggy) {
-        self.viewModel.refreshStatusText = data.statusData
-        self.viewModel.backgroundColor = (data.error == true) ? UIColor.redColor() : UIColor.whiteColor()
-        self.viewModel.textColor = (data.error == true) ? UIColor.yellowColor() : UIColor.blackColor()
+        
+        let textColorName   = (data.error == true)  ? "yellow"  : "black"
+        let bgColorName     = (data.error == true)  ? "red"     : "white"
+        
+        self.viewModel.refreshStatusText    = data.statusData
+        self.viewModel.backgroundColorName  = bgColorName
+        self.viewModel.textColorName        = textColorName
     }
 }

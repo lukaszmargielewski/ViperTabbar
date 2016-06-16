@@ -27,11 +27,7 @@
 		BAFAFE8D1D129F2D00412E53 /* PiggyRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE6F1D129F2D00412E53 /* PiggyRouter.swift */; };
 		BAFAFE8E1D129F2D00412E53 /* PiggyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE701D129F2D00412E53 /* PiggyView.swift */; };
 		BAFAFE8F1D129F2D00412E53 /* PiggyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE711D129F2D00412E53 /* PiggyViewModel.swift */; };
-		BAFAFE901D129F2D00412E53 /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE731D129F2D00412E53 /* Tabbar.swift */; };
 		BAFAFE911D129F2D00412E53 /* TabbarDefaultBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE741D129F2D00412E53 /* TabbarDefaultBuilder.swift */; };
-		BAFAFE921D129F2D00412E53 /* TabbarDefaultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE751D129F2D00412E53 /* TabbarDefaultPresenter.swift */; };
-		BAFAFE931D129F2D00412E53 /* TabbarDefaultRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE761D129F2D00412E53 /* TabbarDefaultRouter.swift */; };
-		BAFAFE941D129F2D00412E53 /* TabbarDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE771D129F2D00412E53 /* TabbarDefaultView.swift */; };
 		BAFAFE951D129F2D00412E53 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE7A1D129F2D00412E53 /* Builder.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,11 +53,7 @@
 		BAFAFE6F1D129F2D00412E53 /* PiggyRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiggyRouter.swift; sourceTree = "<group>"; };
 		BAFAFE701D129F2D00412E53 /* PiggyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiggyView.swift; sourceTree = "<group>"; };
 		BAFAFE711D129F2D00412E53 /* PiggyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiggyViewModel.swift; sourceTree = "<group>"; };
-		BAFAFE731D129F2D00412E53 /* Tabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
 		BAFAFE741D129F2D00412E53 /* TabbarDefaultBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarDefaultBuilder.swift; sourceTree = "<group>"; };
-		BAFAFE751D129F2D00412E53 /* TabbarDefaultPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarDefaultPresenter.swift; sourceTree = "<group>"; };
-		BAFAFE761D129F2D00412E53 /* TabbarDefaultRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarDefaultRouter.swift; sourceTree = "<group>"; };
-		BAFAFE771D129F2D00412E53 /* TabbarDefaultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarDefaultView.swift; sourceTree = "<group>"; };
 		BAFAFE7A1D129F2D00412E53 /* Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 		BAFAFE7B1D129F2D00412E53 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -213,11 +205,7 @@
 		BAFAFE721D129F2D00412E53 /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
-				BAFAFE731D129F2D00412E53 /* Tabbar.swift */,
 				BAFAFE741D129F2D00412E53 /* TabbarDefaultBuilder.swift */,
-				BAFAFE751D129F2D00412E53 /* TabbarDefaultPresenter.swift */,
-				BAFAFE761D129F2D00412E53 /* TabbarDefaultRouter.swift */,
-				BAFAFE771D129F2D00412E53 /* TabbarDefaultView.swift */,
 			);
 			path = Tabbar;
 			sourceTree = "<group>";
@@ -321,18 +309,14 @@
 				BAFAFE911D129F2D00412E53 /* TabbarDefaultBuilder.swift in Sources */,
 				BAFAFE811D129F2D00412E53 /* HelpDefaultBuilder.swift in Sources */,
 				BAFAFE7F1D129F2D00412E53 /* Piggy.swift in Sources */,
-				BAFAFE941D129F2D00412E53 /* TabbarDefaultView.swift in Sources */,
-				BAFAFE931D129F2D00412E53 /* TabbarDefaultRouter.swift in Sources */,
 				BAFAFE871D129F2D00412E53 /* PiggyDefaultInteractor.swift in Sources */,
 				BAFAFE821D129F2D00412E53 /* HelpDefaultPresenter.swift in Sources */,
 				BAFAFE891D129F2D00412E53 /* PiggyDefaultRouter.swift in Sources */,
-				BAFAFE921D129F2D00412E53 /* TabbarDefaultPresenter.swift in Sources */,
 				BAFAFE8E1D129F2D00412E53 /* PiggyView.swift in Sources */,
 				BAFAFE8F1D129F2D00412E53 /* PiggyViewModel.swift in Sources */,
 				BAFAFE851D129F2D00412E53 /* LadyBirdView.swift in Sources */,
 				BAFAFE8B1D129F2D00412E53 /* PiggyInteractor.swift in Sources */,
 				BAFAFE8A1D129F2D00412E53 /* PiggyDefaultView.swift in Sources */,
-				BAFAFE901D129F2D00412E53 /* Tabbar.swift in Sources */,
 				BAFAFE7E1D129F2D00412E53 /* AppDelegate.swift in Sources */,
 				BAFAFE841D129F2D00412E53 /* LadyBird.swift in Sources */,
 				BAFAFE8C1D129F2D00412E53 /* PiggyPresenter.swift in Sources */,
