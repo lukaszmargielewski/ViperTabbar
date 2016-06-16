@@ -13,13 +13,11 @@ class ModuleTabbarBuilder: ModuleBuilder {
     
     func buildModule() -> UIViewController? {
 
-        let tabbarController = ModuleTabbarViewController.init()
+        let tabbarController = UITabBarController.init()
         
-        let router      = ModuleTabbarRouter.init(modules: [PiggyDefaultBuilder(), LadyBirdDefaultBuilder()])
-        let presenter   = ModuleTabbarPresenter.init(router: router)
+        let modules : [ModuleBuilder] = [PiggyDefaultBuilder(), LadyBirdDefaultBuilder()]
         
-        tabbarController.presenter = presenter
-        let viewControllers = router.modules.map {(module) -> UIViewController in
+        let viewControllers = modules.map {(module) -> UIViewController in
         
             return module.buildModule()!
         }
