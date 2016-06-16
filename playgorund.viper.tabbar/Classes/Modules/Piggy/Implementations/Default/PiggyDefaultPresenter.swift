@@ -1,5 +1,5 @@
 //
-//  ModuleOneDefaultPresenter.swift
+//  PiggyDefaultPresenter.swift
 //  playgorund.viper.tabbar
 //
 //  Created by Lukasz Marcin Margielewski on 15/06/16.
@@ -9,14 +9,14 @@
 import Foundation
 import UIKit
 
-class ModuleOneDefaultPresenter : ModuleOnePresenter, ModuleHelpDelegate {
+class PiggyDefaultPresenter : PiggyPresenter, ModuleHelpDelegate {
     
-            var router      : ModuleOneRouter
-            var interactor  : ModuleOneInteractor
-    unowned var viewModel   : ModuleOneViewModel
-    unowned var view        : ModuleOneView
+            var router      : PiggyRouter
+            var interactor  : PiggyInteractor
+    unowned var viewModel   : PiggyViewModel
+    unowned var view        : PiggyView
     
-    required init(viewModel : ModuleOneViewModel, view: ModuleOneView, interactor: ModuleOneInteractor, router: ModuleOneRouter) {
+    required init(viewModel : PiggyViewModel, view: PiggyView, interactor: PiggyInteractor, router: PiggyRouter) {
     
         self.router     = router
         self.viewModel  = viewModel
@@ -40,7 +40,7 @@ class ModuleOneDefaultPresenter : ModuleOnePresenter, ModuleHelpDelegate {
         self.router.showHelpModule(self)
     }
     
-    // -- MARK: ModuleOneHelpDelegate
+    // -- MARK: PiggyHelpDelegate
     
     func closeHelp() {
         self.router.closeHelpModule()
@@ -48,7 +48,7 @@ class ModuleOneDefaultPresenter : ModuleOnePresenter, ModuleHelpDelegate {
 
     // -- MARK: Private
     
-    func updateViewModelWithData(data: ModuleOneModel) {
+    func updateViewModelWithData(data: Piggy) {
         self.viewModel.refreshStatusText = data.statusData
         self.viewModel.backgroundColor   = (data.error == true) ? UIColor.redColor() : UIColor.whiteColor()
         self.viewModel.textColor         = (data.error == true) ? UIColor.yellowColor() : UIColor.blackColor()

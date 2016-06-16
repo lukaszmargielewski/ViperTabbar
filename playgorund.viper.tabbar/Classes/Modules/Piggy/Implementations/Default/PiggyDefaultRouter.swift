@@ -1,5 +1,5 @@
 //
-//  ModuleOneDefaultRouter.swift
+//  PiggyDefaultRouter.swift
 //  playgorund.viper.tabbar
 //
 //  Created by Lukasz Marcin Margielewski on 15/06/16.
@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class ModuleOneDefaultRouter : ModuleOneRouter {
+class PiggyDefaultRouter : PiggyRouter {
     
     // Router needs (required?) reference to the module's UIViewController to do its routing job.
     unowned var viewController : UIViewController

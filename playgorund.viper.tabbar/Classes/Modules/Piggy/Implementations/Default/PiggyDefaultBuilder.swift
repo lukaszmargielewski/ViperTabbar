@@ -1,5 +1,5 @@
 //
-//  ModuleOneBuilder.swift
+//  PiggyBuilder.swift
 //  playgorund.viper.tabbar
 //
 //  Created by Lukasz Marcin Margielewski on 15/06/16.
@@ -9,16 +9,16 @@
 import Foundation
 import UIKit
 
-class ModuleOneDefaultBuilder: ModuleBuilder {
+class PiggyDefaultBuilder: ModuleBuilder {
     
     func buildModule() -> UIViewController? {
 
         let viewModel   = self.buildViewModel()
         
-        let view        = ModuleOneDefaultView.init(viewModel: viewModel)
-        let interactor  = ModuleOneDefaultInteractor()
-        let router      = ModuleOneDefaultRouter.init(viewController: view)
-        let presenter   = ModuleOneDefaultPresenter.init(viewModel: viewModel, view: view, interactor: interactor, router: router)
+        let view        = PiggyDefaultView.init(viewModel: viewModel)
+        let interactor  = PiggyDefaultInteractor()
+        let router      = PiggyDefaultRouter.init(viewController: view)
+        let presenter   = PiggyDefaultPresenter.init(viewModel: viewModel, view: view, interactor: interactor, router: router)
         
         // To hold & retain  everything together:
         view.presenter = presenter
@@ -27,10 +27,10 @@ class ModuleOneDefaultBuilder: ModuleBuilder {
     
     // -- MARK: Private
     
-    func buildViewModel() -> ModuleOneViewModel {
+    func buildViewModel() -> PiggyViewModel {
         
-        let viewModel = ModuleOneViewModel.init(title: "One",
-                                refreshStatusText: "Press refresh to get status updates",
+        let viewModel = PiggyViewModel.init(title: "Piggy",
+                                refreshStatusText: "Press refresh to get status updates for our little piggy.",
                                 backgroundColor: UIColor.whiteColor(),
                                 textColor: UIColor.lightGrayColor())
         

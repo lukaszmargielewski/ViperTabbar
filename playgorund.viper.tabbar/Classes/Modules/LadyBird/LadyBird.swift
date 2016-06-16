@@ -1,5 +1,5 @@
 //
-//  ModuleTwo.swift
+//  LadyBird.swift
 //  playgorund.viper.tabbar
 //
 //  Created by Lukasz Marcin Margielewski on 14/06/16.
@@ -10,14 +10,14 @@ import Foundation
 import UIKit
 
 // !!! - Just plain dummy, mnimum, not fully VIPER module.
-// !!! - See 'Module One' (ModuleOne.swift) for full VIPER modul example.
+// !!! - See 'Piggy' module for full VIPER modul example.
 
-class ModuleTwoDefaultBuilder: ModuleBuilder {
+class LadyBirdDefaultBuilder: ModuleBuilder {
     
     func buildModule() -> UIViewController? {
     
-        let vc = ModuleTwoView.init()
-        vc.title = "Two"
+        let vc = LadyBirdView.init()
+        vc.title = "Lady bird"
         
         let image = UIImage.init(named: "ladybird_filled-50")
         vc.tabBarItem.image = image

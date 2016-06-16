@@ -1,5 +1,5 @@
 //
-//  ModuleOneViewController.swift
+//  PiggyViewController.swift
 //  playgorund.viper.tabbar
 //
 //  Created by Lukasz Marcin Margielewski on 14/06/16.
@@ -8,14 +8,14 @@
 
 import UIKit
 
-class ModuleOneDefaultView: UIViewController, ModuleOneView {
+class PiggyDefaultView: UIViewController, PiggyView {
 
-    var presenter : ModuleOnePresenter?
-    var viewModel : ModuleOneViewModel
+    var presenter : PiggyPresenter?
+    var viewModel : PiggyViewModel
     
     var statusLabel : UILabel?
     
-    required init(viewModel: ModuleOneViewModel) {
+    required init(viewModel: PiggyViewModel) {
     
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
@@ -59,7 +59,7 @@ class ModuleOneDefaultView: UIViewController, ModuleOneView {
     
     func updateLayout() {
         // TODO: Use Auto Layout (native, SnapKit, etc...)
-        self.statusLabel?.frame = CGRect.init(x: 30, y: 100, width: 200, height: 100)
+        self.statusLabel?.frame = CGRect.init(x: 30, y: 94, width: 280, height: 100)
     }
     
     

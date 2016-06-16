@@ -1,5 +1,5 @@
 //
-//  VIPER.swift
+//  Builder.swift
 //  playgorund.viper.tabbar
 //
 //  Created by Lukasz Marcin Margielewski on 14/06/16.
@@ -9,11 +9,8 @@
 import Foundation
 import UIKit
 
-
-// -- MARK: Builder
-
 /**
- *    @brief Generic builder declaration:
+ *    @brief Generic builder
  */
 protocol ModuleBuilder {
     func buildModule() -> UIViewController?

@@ -1,5 +1,5 @@
 //
-//  ModuleTwoViewController.swift
+//  LadyBirdViewController.swift
 //  playgorund.viper.tabbar
 //
 //  Created by Lukasz Marcin Margielewski on 14/06/16.
@@ -8,9 +8,9 @@
 
 import UIKit
 
-class ModuleTwoView: UIViewController {
+class LadyBirdView: UIViewController {
 
-    // This is dummy - please see ModuleOneViewController 
+    // This is dummy - please see PiggyViewController 
     // from Module One for 'correct & full' VIPER implementation
     
     override func loadView() {
