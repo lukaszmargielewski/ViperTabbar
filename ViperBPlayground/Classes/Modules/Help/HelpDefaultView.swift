@@ -55,9 +55,6 @@ class ModuleHelpDefaultView: UIViewController, ModuleHelpView {
         self.textView?.frame = self.view.bounds
     }
     
-    
-    // -- MARK: Protocol imlemetation:
-    
     // TODO: Another strategy is to set up straighforward bindings between UI and viewModel properties
     func refreshDisplay() {
     

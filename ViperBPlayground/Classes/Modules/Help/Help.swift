@@ -61,6 +61,4 @@ protocol ModuleHelpView : class {
     var viewModel   : ModuleHelpViewModel    {get}
     
     init(viewModel : ModuleHelpViewModel)
-    
-    func refreshDisplay()
 }

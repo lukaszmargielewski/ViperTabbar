@@ -15,11 +15,6 @@ protocol PiggyPresenter {
             var interactor  : PiggyInteractor   {get set}
     unowned var viewModel   : PiggyViewModel    {get} // Could be onwed or unowned here (I think).
     
-    // ???: Should we declare initializer in protocol
-    //      or is declaring non-optional property enought?
-    
-    init(viewModel : PiggyViewModel, interactor: PiggyInteractor, router: PiggyRouter)
-    
     func refreshStatus()
     func showHelp()
 }

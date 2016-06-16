@@ -33,7 +33,6 @@
 		BAFAFE931D129F2D00412E53 /* TabbarDefaultRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE761D129F2D00412E53 /* TabbarDefaultRouter.swift */; };
 		BAFAFE941D129F2D00412E53 /* TabbarDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE771D129F2D00412E53 /* TabbarDefaultView.swift */; };
 		BAFAFE951D129F2D00412E53 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE7A1D129F2D00412E53 /* Builder.swift */; };
-		BAFAFE961D129F2D00412E53 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAFAFE7B1D129F2D00412E53 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -251,9 +250,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BA2BEBCC1D103F4A00A18380 /* ViperBplayground */ = {
+		BA2BEBCC1D103F4A00A18380 /* ViperBPlayground */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA2BEBEA1D103F4A00A18380 /* Build configuration list for PBXNativeTarget "ViperBplayground" */;
+			buildConfigurationList = BA2BEBEA1D103F4A00A18380 /* Build configuration list for PBXNativeTarget "ViperBPlayground" */;
 			buildPhases = (
 				BA2BEBC91D103F4A00A18380 /* Sources */,
 				BA2BEBCA1D103F4A00A18380 /* Frameworks */,
@@ -263,7 +262,7 @@
 			);
 			dependencies = (
 			);
-			name = ViperBplayground;
+			name = ViperBPlayground;
 			productName = playgorund.viper.tabbar;
 			productReference = BA2BEBCD1D103F4A00A18380 /* ViperBPlayground.app */;
 			productType = "com.apple.product-type.application";
@@ -296,7 +295,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BA2BEBCC1D103F4A00A18380 /* ViperBplayground */,
+				BA2BEBCC1D103F4A00A18380 /* ViperBPlayground */,
 			);
 		};
 /* End PBXProject section */
@@ -308,7 +307,6 @@
 			files = (
 				BAFAFE7C1D129F2D00412E53 /* Assets.xcassets in Resources */,
 				BAFAFE7D1D129F2D00412E53 /* LaunchScreen.storyboard in Resources */,
-				BAFAFE961D129F2D00412E53 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +477,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA2BEBEA1D103F4A00A18380 /* Build configuration list for PBXNativeTarget "ViperBplayground" */ = {
+		BA2BEBEA1D103F4A00A18380 /* Build configuration list for PBXNativeTarget "ViperBPlayground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA2BEBEB1D103F4A00A18380 /* Debug */,

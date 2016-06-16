@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BA2BEBCC1D103F4A00A18380"
-               BuildableName = "ViperBPlayground.temp_caseinsensitive_rename.app"
-               BlueprintName = "ViperBplayground"
+               BuildableName = "ViperBPlayground.app"
+               BlueprintName = "ViperBPlayground"
                ReferencedContainer = "container:ViperBPlayground.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BA2BEBCC1D103F4A00A18380"
-            BuildableName = "ViperBPlayground.temp_caseinsensitive_rename.app"
-            BlueprintName = "ViperBplayground"
+            BuildableName = "ViperBPlayground.app"
+            BlueprintName = "ViperBPlayground"
             ReferencedContainer = "container:ViperBPlayground.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -66,8 +66,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BA2BEBCC1D103F4A00A18380"
-            BuildableName = "ViperBPlayground.temp_caseinsensitive_rename.app"
-            BlueprintName = "ViperBplayground"
+            BuildableName = "ViperBPlayground.app"
+            BlueprintName = "ViperBPlayground"
             ReferencedContainer = "container:ViperBPlayground.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -85,8 +85,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BA2BEBCC1D103F4A00A18380"
-            BuildableName = "ViperBPlayground.temp_caseinsensitive_rename.app"
-            BlueprintName = "ViperBplayground"
+            BuildableName = "ViperBPlayground.app"
+            BlueprintName = "ViperBPlayground"
             ReferencedContainer = "container:ViperBPlayground.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

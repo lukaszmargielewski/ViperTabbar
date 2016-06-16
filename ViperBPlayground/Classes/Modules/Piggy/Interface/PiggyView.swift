@@ -12,7 +12,4 @@ protocol PiggyView : class {
     
     var presenter   : PiggyPresenter?   {get}
     var viewModel   : PiggyViewModel    {get}
-    
-    // ???: Again - should we decalre initializer in protocol?
-    init(viewModel : PiggyViewModel)
 }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PiggyDefaultView: UIViewController, PiggyView {
+class PiggyDefaultView: UIViewController, PiggyView, PiggyViewModelDelegate {
 
     var presenter : PiggyPresenter?
     var viewModel : PiggyViewModel
@@ -16,9 +16,11 @@ class PiggyDefaultView: UIViewController, PiggyView {
     var statusLabel : UILabel?
     
     required init(viewModel: PiggyViewModel) {
-    
+        
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
+        self.viewModel.delegate = self
+        
         self.refreshDisplay()
     }
     
@@ -42,11 +44,6 @@ class PiggyDefaultView: UIViewController, PiggyView {
         self.updateLayout()
     }
     
-    override func viewDidLoad() {
-        self.refreshDisplay()
-    }
-    
-    
     // -- MARK: Private:
     
     func refresh(sender: UIBarButtonItem) {
@@ -62,16 +59,21 @@ class PiggyDefaultView: UIViewController, PiggyView {
         self.statusLabel?.frame = CGRect.init(x: 30, y: 94, width: 280, height: 100)
     }
     
-    
-    // -- MARK: Protocol imlemetation:
-    
-    // TODO: Another strategy is to set up straighforward bindings between UI and viewModel properties
     func refreshDisplay() {
-    
+        
         self.title                  = self.viewModel.title
         self.view.backgroundColor   = self.viewModel.backgroundColor
         self.statusLabel?.text      = self.viewModel.refreshStatusText
         self.statusLabel?.textColor = self.viewModel.textColor
         self.tabBarItem.image       = self.viewModel.iconForTabbar
     }
+    
+    // -- MARK: Protocol imlemetation:
+    
+    // TODO: Another strategy is to set up straighforward bindings between UI and viewModel properties
+    
+    func viewModelDidChange() {
+        self.refreshDisplay()
+    }
+    
 }

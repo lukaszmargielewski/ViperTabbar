@@ -47,8 +47,7 @@ class PiggyDefaultPresenter : PiggyPresenter, ModuleHelpDelegate {
     
     func updateViewModelWithData(data: Piggy) {
         self.viewModel.refreshStatusText = data.statusData
-        self.viewModel.backgroundColor   = (data.error == true) ? UIColor.redColor() : UIColor.whiteColor()
-        self.viewModel.textColor         = (data.error == true) ? UIColor.yellowColor() : UIColor.blackColor()
-        
+        self.viewModel.backgroundColor = (data.error == true) ? UIColor.redColor() : UIColor.whiteColor()
+        self.viewModel.textColor = (data.error == true) ? UIColor.yellowColor() : UIColor.blackColor()
     }
 }

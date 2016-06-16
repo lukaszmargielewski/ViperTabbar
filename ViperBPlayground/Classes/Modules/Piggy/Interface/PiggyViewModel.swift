@@ -9,14 +9,19 @@
 import Foundation
 import UIKit
 
+protocol PiggyViewModelDelegate {
+    func viewModelDidChange()
+}
 // ???: Is class enought (or better?) or should it be declared as protocol first?
 class PiggyViewModel {
     
-    var title               : String
-    var refreshStatusText   : String
-    var backgroundColor     : UIColor
-    var textColor           : UIColor
-    var iconForTabbar       : UIImage?
+    var delegate            : PiggyViewModelDelegate?
+    
+    var title               : String    {didSet {self.delegate?.viewModelDidChange()}}
+    var refreshStatusText   : String    {didSet {self.delegate?.viewModelDidChange()}}
+    var backgroundColor     : UIColor   {didSet {self.delegate?.viewModelDidChange()}}
+    var textColor           : UIColor   {didSet {self.delegate?.viewModelDidChange()}}
+    var iconForTabbar       : UIImage?  {didSet {self.delegate?.viewModelDidChange()}}
     
     required init(title: String, refreshStatusText: String, backgroundColor: UIColor, textColor: UIColor) {
         
