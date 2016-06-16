@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAFAFE7C1D129F2D00412E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFAFE521D129F2D00412E53 /* Assets.xcassets */; };
+		BAFAFE7D1D129F2D00412E53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFAFE531D129F2D00412E53 /* LaunchScreen.storyboard */; };
+		BAFAFE7E1D129F2D00412E53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE571D129F2D00412E53 /* AppDelegate.swift */; };
+		BAFAFE7F1D129F2D00412E53 /* Piggy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE5A1D129F2D00412E53 /* Piggy.swift */; };
+		BAFAFE801D129F2D00412E53 /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE5D1D129F2D00412E53 /* Help.swift */; };
+		BAFAFE811D129F2D00412E53 /* HelpDefaultBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE5E1D129F2D00412E53 /* HelpDefaultBuilder.swift */; };
+		BAFAFE821D129F2D00412E53 /* HelpDefaultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE5F1D129F2D00412E53 /* HelpDefaultPresenter.swift */; };
+		BAFAFE831D129F2D00412E53 /* HelpDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE601D129F2D00412E53 /* HelpDefaultView.swift */; };
+		BAFAFE841D129F2D00412E53 /* LadyBird.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE621D129F2D00412E53 /* LadyBird.swift */; };
+		BAFAFE851D129F2D00412E53 /* LadyBirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE631D129F2D00412E53 /* LadyBirdView.swift */; };
+		BAFAFE861D129F2D00412E53 /* PiggyDefaultBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE671D129F2D00412E53 /* PiggyDefaultBuilder.swift */; };
+		BAFAFE871D129F2D00412E53 /* PiggyDefaultInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE681D129F2D00412E53 /* PiggyDefaultInteractor.swift */; };
+		BAFAFE881D129F2D00412E53 /* PiggyDefaultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE691D129F2D00412E53 /* PiggyDefaultPresenter.swift */; };
+		BAFAFE891D129F2D00412E53 /* PiggyDefaultRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE6A1D129F2D00412E53 /* PiggyDefaultRouter.swift */; };
+		BAFAFE8A1D129F2D00412E53 /* PiggyDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE6B1D129F2D00412E53 /* PiggyDefaultView.swift */; };
+		BAFAFE8B1D129F2D00412E53 /* PiggyInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE6D1D129F2D00412E53 /* PiggyInteractor.swift */; };
+		BAFAFE8C1D129F2D00412E53 /* PiggyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE6E1D129F2D00412E53 /* PiggyPresenter.swift */; };
+		BAFAFE8D1D129F2D00412E53 /* PiggyRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE6F1D129F2D00412E53 /* PiggyRouter.swift */; };
+		BAFAFE8E1D129F2D00412E53 /* PiggyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE701D129F2D00412E53 /* PiggyView.swift */; };
+		BAFAFE8F1D129F2D00412E53 /* PiggyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE711D129F2D00412E53 /* PiggyViewModel.swift */; };
+		BAFAFE901D129F2D00412E53 /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE731D129F2D00412E53 /* Tabbar.swift */; };
+		BAFAFE911D129F2D00412E53 /* TabbarDefaultBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE741D129F2D00412E53 /* TabbarDefaultBuilder.swift */; };
+		BAFAFE921D129F2D00412E53 /* TabbarDefaultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE751D129F2D00412E53 /* TabbarDefaultPresenter.swift */; };
+		BAFAFE931D129F2D00412E53 /* TabbarDefaultRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE761D129F2D00412E53 /* TabbarDefaultRouter.swift */; };
+		BAFAFE941D129F2D00412E53 /* TabbarDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE771D129F2D00412E53 /* TabbarDefaultView.swift */; };
+		BAFAFE951D129F2D00412E53 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAFE7A1D129F2D00412E53 /* Builder.swift */; };
+		BAFAFE961D129F2D00412E53 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAFAFE7B1D129F2D00412E53 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA2BEBCD1D103F4A00A18380 /* ViperBPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperBPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFAFE521D129F2D00412E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAFAFE541D129F2D00412E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAFAFE571D129F2D00412E53 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAFAFE5A1D129F2D00412E53 /* Piggy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Piggy.swift; sourceTree = "<group>"; };
+		BAFAFE5D1D129F2D00412E53 /* Help.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Help.swift; sourceTree = "<group>"; };
+		BAFAFE5E1D129F2D00412E53 /* HelpDefaultBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpDefaultBuilder.swift; sourceTree = "<group>"; };
+		BAFAFE5F1D129F2D00412E53 /* HelpDefaultPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpDefaultPresenter.swift; sourceTree = "<group>"; };
+		BAFAFE601D129F2D00412E53 /* HelpDefaultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpDefaultView.swift; sourceTree = "<group>"; };
+		BAFAFE621D129F2D00412E53 /* LadyBird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LadyBird.swift; sourceTree = "<group>"; };
+		BAFAFE631D129F2D00412E53 /* LadyBirdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LadyBirdView.swift; sourceTree = "<group>"; };
+		BAFAFE671D129F2D00412E53 /* PiggyDefaultBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiggyDefaultBuilder.swift; sourceTree = "<group>"; };
+		BAFAFE681D129F2D00412E53 /* PiggyDefaultInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiggyDefaultInteractor.swift; sourceTree = "<group>"; };
+		BAFAFE691D129F2D00412E53 /* PiggyDefaultPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiggyDefaultPresenter.swift; sourceTree = "<group>"; };
+		BAFAFE6A1D129F2D00412E53 /* PiggyDefaultRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiggyDefaultRouter.swift; sourceTree = "<group>"; };
+		BAFAFE6B1D129F2D00412E53 /* PiggyDefaultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiggyDefaultView.swift; sourceTree = "<group>"; };
+		BAFAFE6D1D129F2D00412E53 /* PiggyInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiggyInteractor.swift; sourceTree = "<group>"; };
+		BAFAFE6E1D129F2D00412E53 /* PiggyPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiggyPresenter.swift; sourceTree = "<group>"; };
+		BAFAFE6F1D129F2D00412E53 /* PiggyRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiggyRouter.swift; sourceTree = "<group>"; };
+		BAFAFE701D129F2D00412E53 /* PiggyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiggyView.swift; sourceTree = "<group>"; };
+		BAFAFE711D129F2D00412E53 /* PiggyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiggyViewModel.swift; sourceTree = "<group>"; };
+		BAFAFE731D129F2D00412E53 /* Tabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
+		BAFAFE741D129F2D00412E53 /* TabbarDefaultBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarDefaultBuilder.swift; sourceTree = "<group>"; };
+		BAFAFE751D129F2D00412E53 /* TabbarDefaultPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarDefaultPresenter.swift; sourceTree = "<group>"; };
+		BAFAFE761D129F2D00412E53 /* TabbarDefaultRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarDefaultRouter.swift; sourceTree = "<group>"; };
+		BAFAFE771D129F2D00412E53 /* TabbarDefaultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarDefaultView.swift; sourceTree = "<group>"; };
+		BAFAFE7A1D129F2D00412E53 /* Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		BAFAFE7B1D129F2D00412E53 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA2BEBCA1D103F4A00A18380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA2BEBC41D103F4A00A18380 = {
+			isa = PBXGroup;
+			children = (
+				BAFAFE511D129F2D00412E53 /* ViperBPlayground */,
+				BA2BEBCE1D103F4A00A18380 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA2BEBCE1D103F4A00A18380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA2BEBCD1D103F4A00A18380 /* ViperBPlayground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAFAFE511D129F2D00412E53 /* ViperBPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				BAFAFE551D129F2D00412E53 /* Classes */,
+				BAFAFE971D129F3700412E53 /* Resources */,
+			);
+			path = ViperBPlayground;
+			sourceTree = "<group>";
+		};
+		BAFAFE551D129F2D00412E53 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BAFAFE561D129F2D00412E53 /* App */,
+				BAFAFE581D129F2D00412E53 /* Data */,
+				BAFAFE5B1D129F2D00412E53 /* Modules */,
+				BAFAFE781D129F2D00412E53 /* Services */,
+				BAFAFE791D129F2D00412E53 /* VIPER-Architecture-Generic */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BAFAFE561D129F2D00412E53 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BAFAFE571D129F2D00412E53 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BAFAFE581D129F2D00412E53 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BAFAFE591D129F2D00412E53 /* Models */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		BAFAFE591D129F2D00412E53 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BAFAFE5A1D129F2D00412E53 /* Piggy.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BAFAFE5B1D129F2D00412E53 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BAFAFE5C1D129F2D00412E53 /* Help */,
+				BAFAFE611D129F2D00412E53 /* LadyBird */,
+				BAFAFE641D129F2D00412E53 /* Piggy */,
+				BAFAFE721D129F2D00412E53 /* Tabbar */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BAFAFE5C1D129F2D00412E53 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				BAFAFE5D1D129F2D00412E53 /* Help.swift */,
+				BAFAFE5E1D129F2D00412E53 /* HelpDefaultBuilder.swift */,
+				BAFAFE5F1D129F2D00412E53 /* HelpDefaultPresenter.swift */,
+				BAFAFE601D129F2D00412E53 /* HelpDefaultView.swift */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		BAFAFE611D129F2D00412E53 /* LadyBird */ = {
+			isa = PBXGroup;
+			children = (
+				BAFAFE621D129F2D00412E53 /* LadyBird.swift */,
+				BAFAFE631D129F2D00412E53 /* LadyBirdView.swift */,
+			);
+			path = LadyBird;
+			sourceTree = "<group>";
+		};
+		BAFAFE641D129F2D00412E53 /* Piggy */ = {
+			isa = PBXGroup;
+			children = (
+				BAFAFE651D129F2D00412E53 /* Implementations */,
+				BAFAFE6C1D129F2D00412E53 /* Interface */,
+			);
+			path = Piggy;
+			sourceTree = "<group>";
+		};
+		BAFAFE651D129F2D00412E53 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				BAFAFE661D129F2D00412E53 /* Default */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		BAFAFE661D129F2D00412E53 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				BAFAFE671D129F2D00412E53 /* PiggyDefaultBuilder.swift */,
+				BAFAFE681D129F2D00412E53 /* PiggyDefaultInteractor.swift */,
+				BAFAFE691D129F2D00412E53 /* PiggyDefaultPresenter.swift */,
+				BAFAFE6A1D129F2D00412E53 /* PiggyDefaultRouter.swift */,
+				BAFAFE6B1D129F2D00412E53 /* PiggyDefaultView.swift */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		BAFAFE6C1D129F2D00412E53 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				BAFAFE6D1D129F2D00412E53 /* PiggyInteractor.swift */,
+				BAFAFE6E1D129F2D00412E53 /* PiggyPresenter.swift */,
+				BAFAFE6F1D129F2D00412E53 /* PiggyRouter.swift */,
+				BAFAFE701D129F2D00412E53 /* PiggyView.swift */,
+				BAFAFE711D129F2D00412E53 /* PiggyViewModel.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		BAFAFE721D129F2D00412E53 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				BAFAFE731D129F2D00412E53 /* Tabbar.swift */,
+				BAFAFE741D129F2D00412E53 /* TabbarDefaultBuilder.swift */,
+				BAFAFE751D129F2D00412E53 /* TabbarDefaultPresenter.swift */,
+				BAFAFE761D129F2D00412E53 /* TabbarDefaultRouter.swift */,
+				BAFAFE771D129F2D00412E53 /* TabbarDefaultView.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		BAFAFE781D129F2D00412E53 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BAFAFE791D129F2D00412E53 /* VIPER-Architecture-Generic */ = {
+			isa = PBXGroup;
+			children = (
+				BAFAFE7A1D129F2D00412E53 /* Builder.swift */,
+			);
+			path = "VIPER-Architecture-Generic";
+			sourceTree = "<group>";
+		};
+		BAFAFE971D129F3700412E53 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BAFAFE521D129F2D00412E53 /* Assets.xcassets */,
+				BAFAFE531D129F2D00412E53 /* LaunchScreen.storyboard */,
+				BAFAFE7B1D129F2D00412E53 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA2BEBCC1D103F4A00A18380 /* ViperBplayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2BEBEA1D103F4A00A18380 /* Build configuration list for PBXNativeTarget "ViperBplayground" */;
+			buildPhases = (
+				BA2BEBC91D103F4A00A18380 /* Sources */,
+				BA2BEBCA1D103F4A00A18380 /* Frameworks */,
+				BA2BEBCB1D103F4A00A18380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViperBplayground;
+			productName = playgorund.viper.tabbar;
+			productReference = BA2BEBCD1D103F4A00A18380 /* ViperBPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA2BEBC51D103F4A00A18380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Lukasz Marcin Margielewski";
+				TargetAttributes = {
+					BA2BEBCC1D103F4A00A18380 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = BA2BEBC81D103F4A00A18380 /* Build configuration list for PBXProject "ViperBPlayground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA2BEBC41D103F4A00A18380;
+			productRefGroup = BA2BEBCE1D103F4A00A18380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA2BEBCC1D103F4A00A18380 /* ViperBplayground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA2BEBCB1D103F4A00A18380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFAFE7C1D129F2D00412E53 /* Assets.xcassets in Resources */,
+				BAFAFE7D1D129F2D00412E53 /* LaunchScreen.storyboard in Resources */,
+				BAFAFE961D129F2D00412E53 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA2BEBC91D103F4A00A18380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFAFE861D129F2D00412E53 /* PiggyDefaultBuilder.swift in Sources */,
+				BAFAFE911D129F2D00412E53 /* TabbarDefaultBuilder.swift in Sources */,
+				BAFAFE811D129F2D00412E53 /* HelpDefaultBuilder.swift in Sources */,
+				BAFAFE7F1D129F2D00412E53 /* Piggy.swift in Sources */,
+				BAFAFE941D129F2D00412E53 /* TabbarDefaultView.swift in Sources */,
+				BAFAFE931D129F2D00412E53 /* TabbarDefaultRouter.swift in Sources */,
+				BAFAFE871D129F2D00412E53 /* PiggyDefaultInteractor.swift in Sources */,
+				BAFAFE821D129F2D00412E53 /* HelpDefaultPresenter.swift in Sources */,
+				BAFAFE891D129F2D00412E53 /* PiggyDefaultRouter.swift in Sources */,
+				BAFAFE921D129F2D00412E53 /* TabbarDefaultPresenter.swift in Sources */,
+				BAFAFE8E1D129F2D00412E53 /* PiggyView.swift in Sources */,
+				BAFAFE8F1D129F2D00412E53 /* PiggyViewModel.swift in Sources */,
+				BAFAFE851D129F2D00412E53 /* LadyBirdView.swift in Sources */,
+				BAFAFE8B1D129F2D00412E53 /* PiggyInteractor.swift in Sources */,
+				BAFAFE8A1D129F2D00412E53 /* PiggyDefaultView.swift in Sources */,
+				BAFAFE901D129F2D00412E53 /* Tabbar.swift in Sources */,
+				BAFAFE7E1D129F2D00412E53 /* AppDelegate.swift in Sources */,
+				BAFAFE841D129F2D00412E53 /* LadyBird.swift in Sources */,
+				BAFAFE8C1D129F2D00412E53 /* PiggyPresenter.swift in Sources */,
+				BAFAFE801D129F2D00412E53 /* Help.swift in Sources */,
+				BAFAFE8D1D129F2D00412E53 /* PiggyRouter.swift in Sources */,
+				BAFAFE831D129F2D00412E53 /* HelpDefaultView.swift in Sources */,
+				BAFAFE881D129F2D00412E53 /* PiggyDefaultPresenter.swift in Sources */,
+				BAFAFE951D129F2D00412E53 /* Builder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BAFAFE531D129F2D00412E53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAFAFE541D129F2D00412E53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA2BEBE81D103F4A00A18380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA2BEBE91D103F4A00A18380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA2BEBEB1D103F4A00A18380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/ViperBPlayground/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.unwire.playgorund-viperb";
+				PRODUCT_NAME = ViperBPlayground;
+			};
+			name = Debug;
+		};
+		BA2BEBEC1D103F4A00A18380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/ViperBPlayground/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.unwire.playgorund-viperb";
+				PRODUCT_NAME = ViperBPlayground;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA2BEBC81D103F4A00A18380 /* Build configuration list for PBXProject "ViperBPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2BEBE81D103F4A00A18380 /* Debug */,
+				BA2BEBE91D103F4A00A18380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2BEBEA1D103F4A00A18380 /* Build configuration list for PBXNativeTarget "ViperBplayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2BEBEB1D103F4A00A18380 /* Debug */,
+				BA2BEBEC1D103F4A00A18380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA2BEBC51D103F4A00A18380 /* Project object */;
+}
